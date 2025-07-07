@@ -77,10 +77,17 @@ div.header-content-left > p {
   border: none;
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
+  transition: 0.4s ease;
 }
 #input-header:hover,
 a:hover {
   cursor: pointer;
+}
+
+#input-header:hover {
+  background-color: white;
+  color: #3882f6;
+  border: 1px solid #3882f6;
 }
 
 div.header-content-right {
@@ -93,6 +100,59 @@ div.header-content-right > img#header-content-img {
   height: 250px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-info {
+  width: 300px;
+  padding-bottom: 3rem;
+  align-self: center;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-desc {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.div-text {
+  padding-top: 10px;
+  width: 200px;
+}
+
+.div-img {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: 4px solid rgba(11, 15, 230, 0.7);
+  border-radius: 10%;
+  transition: 0.4s ease;
+}
+
+.div-img > .main-desc-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.div-img:hover {
+  box-shadow: 1px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
 ul,
 input {
   margin: 0;
@@ -102,4 +162,9 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+.outer-main-desc-div p {
+  padding: 0;
+  margin: 0;
+  display: inline;
 }
