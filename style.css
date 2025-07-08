@@ -79,7 +79,8 @@ div.header-content-left > p {
   transition: 0.4s ease;
 }
 #input-header:hover,
-a:hover {
+a:hover,
+#sign-up-right {
   cursor: pointer;
 }
 
