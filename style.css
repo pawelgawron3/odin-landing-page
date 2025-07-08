@@ -181,6 +181,70 @@ div.quote-block {
   font-weight: 900;
 }
 
+section#sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.sign-up-content {
+  width: 60%;
+  height: 50%;
+  background-color: #3882f6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+#first,
+#second {
+  color: #f9faf8;
+}
+
+#first {
+  font-size: 1.5rem;
+}
+
+#second {
+  padding-top: 10px;
+}
+
+#sign-up-right {
+  background-color: #3882f6;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid #f9faf8;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+  transition: 0.4s ease;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#sign-up-right:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+#input-div-sign-up {
+  padding-top: 10px;
+}
+
+footer {
+  height: 80px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info > p {
+  color: #e5e7eb;
+}
+
 ul,
 input,
 p {
